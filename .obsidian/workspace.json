@@ -1,0 +1,328 @@
+{
+  "main": {
+    "id": "8bc888d372c412cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "7366bcdfc8a29f72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91dbc0723068edf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nakash/Game Engine Architecture/I Foundations/Instruction Reordering.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Instruction Reordering"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e53eaaf803986b3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "473f5a8bcee226e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ec28e1dbe637783",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "4987d3e28d467e03",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          },
+          {
+            "id": "e05691b2f4e4b033",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.5
+  },
+  "right": {
+    "id": "f72b570793fd920f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fcfeb0016be38e6",
+        "type": "tabs",
+        "dimension": 30.425963488843813,
+        "children": [
+          {
+            "id": "4fef18f81dc82747",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "ef3a18e313e2ccda",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Facultad/2024/Análisis y Diseño de Algoritmos II/Grafo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Grafo"
+            }
+          },
+          {
+            "id": "1c7363e216fd8fc9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Facultad/2024/Análisis y Diseño de Algoritmos II/Grafo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Grafo"
+            }
+          },
+          {
+            "id": "e8483395a7ed1bb2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "542e99bb8ead0101",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Facultad/2024/Análisis y Diseño de Algoritmos II/Grafo.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Grafo"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ab03e9b012b85766",
+        "type": "tabs",
+        "dimension": 69.57403651115618,
+        "children": [
+          {
+            "id": "3ad3408ea958ba60",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Nakash/Game Engine Architecture/I Foundations/Instruction Reordering.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": true,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "path:\"Facultad/Análisis y Diseño de Algoritmos II\"  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14725458
+                      }
+                    },
+                    {
+                      "query": "path:\"Facultad/Probabilidad y estadística/Modulo 2\"  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11657298
+                      }
+                    },
+                    {
+                      "query": "path:\"Ideas del juego\"  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5431378
+                      }
+                    },
+                    {
+                      "query": "path:Nakash  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 420358
+                      }
+                    },
+                    {
+                      "query": "tag:#ToDo  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 0
+                      }
+                    }
+                  ],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": -1.7,
+                  "nodeSizeMultiplier": 0.610416666666667,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.017341529915832782,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de Instruction Reordering"
+            }
+          },
+          {
+            "id": "8ff19f7a84babd37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Facultad/2024/Análisis y Diseño de Algoritmos II/Grafo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Grafo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 333.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "random-note:Abrir nota al azar": false,
+      "workspaces:Gestionar disposiciones de espacio de trabajo": false,
+      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "91dbc0723068edf4",
+  "lastOpenFiles": [
+    "Nakash/Game Engine Architecture/I Foundations/Threads.md",
+    "Nakash/Game Engine Architecture/I Foundations/Concurrency.md",
+    "Nakash/Game Engine Architecture/I Foundations/Race conditions.md",
+    "Nakash/Game Engine Architecture/I Foundations/Instruction Reordering.md",
+    "[[Race.md",
+    "Race.md",
+    "Nakash/Game Engine Architecture/I Foundations/Lock-Free Concurrency.md",
+    "[Race.md",
+    "Pasted image 20250222173948.png",
+    "Nakash/Game Engine Architecture/I Foundations/Mutex.md",
+    "Pasted image 20250221173516.png",
+    "[[Threads]].md",
+    "Nakash/Game Engine Architecture/I Foundations/User-level Thread.md",
+    "Nakash/Game Engine Architecture/I Foundations/Fibers.md",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
+    "Nakash/Game Engine Architecture/I Foundations/Coroutines.md",
+    "Pasted image 20250217182433.png",
+    "Nakash/Readme.md",
+    "[Acá explican como hacer un struct de Coroutines.md",
+    "Nakash/Game Engine Architecture/I Foundations",
+    "Home.md",
+    "Facultad/Distribución normal.md",
+    "image.png",
+    "image_0.png",
+    "Pasted image 20241018172206.png",
+    "Pasted image 20241018174009.png",
+    "Pasted image 20241024190616.png",
+    "Pasted image 20241024182746.png",
+    "Nakash/Game Engine Architecture/II Low-Level Engine Systems/Engine Support Systems.md",
+    "Dijkstra.md",
+    "Nakash/Game Engine Architecture/II Low-Level Engine Systems",
+    "Nakash/Game Engine Architecture",
+    "Nakash/Game Engine",
+    "Facultad/Teoría de la información.md",
+    "Nakash",
+    "Facultad/Índice Facultad.md",
+    "Facultad/2024/Probabilidad y estadística/Modulo 2/Hipergeométrico.md",
+    "Facultad/2024/Probabilidad y estadística/Modulo 2/Geométrico.md",
+    "Facultad/2024/Probabilidad y estadística/Modulo 2/Poisson.md",
+    "Facultad/2024/Probabilidad y estadística/Modulo 2/Ejemplo.md",
+    "Facultad/2024/Diseño Lógico/61be2b23-0bae-434b-8601-74ede8e4cec2.pdf",
+    "Facultad/2024/Metodologías del Desarrollo del Software/Parcial/Continuación_Ejer_2.jpg",
+    "Facultad/2024/Diseño Lógico/8791b711-1b1d-411b-915b-322b96038b15.pdf",
+    "Facultad/2024/Diseño Lógico/8791b711-1b1d-411b-915b-322b96038b15.pdf.crdownload",
+    "TP-DiagramaCasosdeUso.pdf",
+    "Facultad/2024/Metodologías del Desarrollo del Software/TP-DiagramaCasosdeUso.pdf",
+    "Codigo/Potenciador/Untitled.canvas"
+  ]
+}
