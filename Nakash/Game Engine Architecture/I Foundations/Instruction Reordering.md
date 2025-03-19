@@ -83,5 +83,10 @@ void ConsumerThread() { // running on Core 2
 ### Memory order
 `std::atomic<T>` permite declarar variables que producen sus operaciones de lectura y escritura utilizando fences para que sean atomicas. 
 Pero para que en todos los casos estas funcionen correctamente usan full memory barriers. Esto se puede relajar pasasndo una *==memory order semantic==* (std::memory_order) a funciones que manipulan variables atomicas. 
-1. **==Relaxed==**: 
-
+1. **==Relaxed==**: Una operación atomica garantiza solo atomicidad. Ninguna barrera o fence son usadas.
+2. **==Consume==**: Una read hecha en una semantica de consumo garantiza que no otro read o write, dentro del mismo [thread](Threads), no puede ser reordenada antes de este read. ==En otras palabras detiene al optimizaciones de compilador o ejecuciones out-of-order== para reordenar las instrucciones.
+3. ==**Release**==:  Una escritura hecha con una semantica de release garantiza que ninguna otra lectura o escritura, en este thread, pueda ser reordenada después de esto, y ==la escritura es garantizada para ser visible por otros threads leyendo desde la misma dirección==. 
+4. **==Acquire==**: Una lectura hecha con una semantica de acquire garantiza una semantica de consumo, y añadido a esto ==garantiza que una escritura en la misma dirección por otros threads vaya a ser visible por este thread==. 
+[Para seguir:  Implementing Scalable Atomic Locks for Multi-Core Intel EM64T and IA32 Architectures](https://community.intel.com/t5/Intel-Moderncode-for-Parallel/Q-A-Implementing-Scalable-Atomic-Locks-for-Multi-Core-Intel/m-p/912582)
+- [C#: Search for “Parallel Processing and Concurrency in the .NET Frame-work”](https://docs.microsoft.com.) 
+- [Concurrencia en Java]( https://docs.oracle.com/javase/tutorial/essential/concurrency/)

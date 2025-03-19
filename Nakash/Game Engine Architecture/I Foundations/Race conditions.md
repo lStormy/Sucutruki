@@ -39,7 +39,7 @@ Hay algunas instrucciones en lenguaje de maquina que pueden ser atomicas, aunque
 Diferentes CPUs e ISAS (instruction set Achitecture) proveen distintos sets de instrucciones atomicas. Pero todas caen en 2 categorías: 
 - Atomic reads and writes, and
 - Atomic read-modify-write (RMW) instructions. 
-
+##### TAS
 La instrucción RMW más simple es el TAS (test-and-set). De forma atomica setea una variable booleana a true y retorna si valor previo (para que pueda ser testeada).
 ``` cpp
 bool TAS (bool * plock) {
@@ -60,7 +60,7 @@ void SpinLockTas(bool * plock) {
 }
 ```
 
-
+##### CAS
 Algunas CPU proveen una instrucción llamada *compare-and-Swap* (CAS). Cheuqa el valor existente en la memoria y lo cambia atomicamente con un nuevo valor que *Si y solo si*  el valor existente es igual al esperado (ingresado por el usuario). 
 
 ```cpp

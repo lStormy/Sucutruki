@@ -12,6 +12,23 @@ Este es del tipo *Transaction-based*, esto evita el Deadlock pero puede permitir
 #### 4. Wait freedom
 ==Provee todo lo que garantiza el lock freedom, pero además garantiza que no haya starvation.== En otras palabras, todos los threads puede hacer progresos y ningún thread tiene permitido "Starve" de forma indeterminada. 
 
-##### Progesimos desde acá a [[Race conditions]]
 
+>Concurrency is a vast and profound topic, and in this chapter we’ve only just
+scratched the surface. As always, the goal of this book is merely to build aware-
+ness and serve as a jumping-off point for further learning.
+• For a complete discussion of implementing a lock-free singly-linked list, check out Herb Sutter’s talk at CppCon 2014, which is where the example above came from. The talk is available on YouTube in two parts:
+>- https://www.youtube.com/watch?v=c1gO9aB9nbs, and 
+ >- https://www.youtube.com/watch?v=CmxkPChOcvw.
+
+>This lecture by Geoff Langdale of CMU provides a great overview: https: //www.cs.cmu.edu/~410-s05/lectures/L31_LockFree.pdf.
+
+>Also be sure to check out this presentation by Samy Al Bahra for a clear and easily digestible overview of pretty much every topic under the sun related to concurrent programming: http://concurrencykit.org/presentations/lockfree_introduction/#/.
+
+>Mike Acton’s excellent talk on concurrent thinking is a must-read; it is available at http://cellperformance.beyond3d.com/articles/public/concurrency_rabit_hole.pdf.
+
+>These two online books are great resources for concurrent programming:http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf and https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2011.01.02a.pdf.
+
+>Some excellent articles on lock-free programming and how atomics, barriers and fences work can be found on Jeff Preshing’s blog: http://preshing.com/20120612/an-introduction-to-lock-free-programming.
+
+>This page has great information about memory barriers on Linux: https: //www.mjmwired.net/kernel/Documentation/memory-barriers.txt#305
 

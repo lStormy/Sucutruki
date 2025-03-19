@@ -7,13 +7,13 @@
 Lo más importante sobre un mutex es que garantiza que solo un [Thread](Threads) lo va a utilizar en un cierto tiempo. Por lo tanto si juntamos todas las operaciones de un objeto compartiod en particular en un mutex, entonces esas operaciones se vuelven atomicas, de forma relativa en una con la otra. En otras palabras se vuelven mutuamente exclusivas (mutex).
 
 ##### Aclaración:
-Hay muchas más estructuras que implementan estos tipos de soluciones a [Critical operations](Race conditions) y pasarlas a atomic operations.
+Hay muchas más estructuras que implementan estos tipos de soluciones a [[Race conditions|Critical operations]] y pasarlas a atomic operations.
 Como *Semaforos*, *Condition variables* y quizá *Futures and promise* (este último no lo conozco tanto). 
 
 ***Pero además hay un problema con esta forma de concurrencia...***
 
 ### Problemas de la "Lock-Based" [[Concurrency]]
-Además de las [Atomicidades]([[Race conditions]]) hay otros problemas en [Concurrencia](Concurrency), incluso habiendo usado resguardado todos los objetos compartidos en memoria usando locks. 
+Además de las [[Race conditions|Atomicidades]] hay otros problemas en [Concurrencia](Concurrency), incluso habiendo usado resguardado todos los objetos compartidos en memoria usando locks. 
 
 #### 1. Deadlocks
 Una situación en la que ningún Thread en el sistema puede lograr un progreso, resultando en un "hang". Esto ocurre cuando todos los Threads están esperando a que algo suceda, en el estado Bloqueado. Pero como ningún Thread está en un estado de Correr, entonces nunca se van a volver disponibles, por lo tanto todo el programa se congela o "hangs".
